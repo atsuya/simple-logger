@@ -1,0 +1,23 @@
+{
+  "name": "simple-logger",
+  "version": "0.0.1",
+  "description": "A very simple logger for node. Just for myself.",
+  "main": "lib/index.js",
+  "repository": "git@github.com:atsuya/simple-logger.git",
+  "author": "Atsuya Takagi <asoftonight@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "NODE_ENV=test mocha -C test",
+    "doc": "jsdoc -c jsdoc-config.json -r lib -d doc"
+  },
+  "dependencies": {
+    "winston": "2.4.1"
+  },
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-google": "0.9.1",
+    "jsdoc": "3.5.5",
+    "mocha": "5.1.1"
+  }
+}
