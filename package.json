@@ -1,6 +1,6 @@
 {
   "name": "simple-logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A very simple logger for node. Just for myself.",
   "main": "lib/index.js",
   "repository": "git@github.com:atsuya/simple-logger.git",
