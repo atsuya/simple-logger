@@ -1,10 +1,12 @@
 # simple-logger
 
-A very simple logger for node. Just for myself.
+A very simple logger for node that logs things in JSON. Just for myself.
 
 # How to use
 
 ```javascript
+const { SimpleLogger } = require('simple-logger')
+
 const logger = new SimpleLogger({
   name: 'test logger',
   level: SimpleLogger.INFO, // `level` is optional; DEBUG is default.
