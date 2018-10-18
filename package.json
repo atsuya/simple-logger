@@ -12,11 +12,11 @@
     "doc": "jsdoc -c jsdoc-config.json -r lib -d doc"
   },
   "dependencies": {
-    "winston": "3.0.0"
+    "winston": "3.1.0"
   },
   "devDependencies": {
-    "eslint": "4.19.1",
-    "eslint-config-google": "0.9.1",
+    "eslint": "5.7.0",
+    "eslint-config-google": "0.11.0",
     "jsdoc": "3.5.5",
     "mocha": "5.2.0"
   }
